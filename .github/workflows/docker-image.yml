@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    if: github.repository == 'huangxd-/danmu_api'
     runs-on: ubuntu-latest
 
     steps:
